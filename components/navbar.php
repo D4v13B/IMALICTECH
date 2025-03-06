@@ -166,3 +166,61 @@
    </div>
 </div>
 <!-- Header End -->
+
+<!-- Offcanvas Start-->
+<div class="offcanvas offcanvas-start" id="offcanvasExample">
+   <div class="offcanvas-header">
+      <!-- Offcanvas Logo Start -->
+      <div class="offcanvas-logo">
+         <a href="index.html"><img src="assets/images/logo-white.png" alt=""></a>
+      </div>
+      <!-- Offcanvas Logo End -->
+      <button type="button" class="close-btn" data-bs-dismiss="offcanvas"><i class="flaticon-close"></i></button>
+   </div>
+
+   <!-- Offcanvas Body Start -->
+   <div class="offcanvas-body">
+      <div class="offcanvas-menu">
+         <ul class="main-menu">
+            <li class="active-menu">
+               <a href="index.html">Home</a>
+               <ul class="sub-menu">
+                  <li><a href="index.html">Main Home</a></li>
+                  <li><a href="index-2.html">IT Company</a></li>
+                  <li><a href="index-3.html">IT Agency</a></li>
+                  <li class="active"><a href="index-4.html">IT Consulting</a></li>
+                  <li><a href="index-5.html">IT Services</a></li>
+                  <li><a href="index-6.html">AI Technology</a></li>
+                  <li><a href="index-7.html">Software Company</a></li>
+                  <li><a href="index-8.html">Home Startup</a></li>
+                  <li><a href="index-9.html">Data Science</a></li>
+                  <li><a href="index-10.html">Home Cyber</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="about.html">Aboute Us</a>
+            </li>
+            <li><a href="#">Pages</a>
+               <ul class="sub-menu">
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="service.html">Service</a></li>
+                  <li><a href="why-choose.html">Why Choose Us</a></li>
+                  <li><a href="testimonial.html">Testimonial</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="login-register.html">Login & Register</a></li>
+               </ul>
+            </li>
+            <li><a href="#">Blog</a>
+               <ul class="sub-menu">
+                  <li><a href="blog.html">Blog Grid</a></li>
+                  <li><a href="blog-standard.html">Latest News</a></li>
+                  <li><a href="blog-details.html">Blog Details</a></li>
+               </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </div>
+   </div>
+   <!-- Offcanvas Body End -->
+</div>
+<!-- Offcanvas End -->

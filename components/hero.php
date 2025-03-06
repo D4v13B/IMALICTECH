@@ -30,3 +30,51 @@
    </div>
 </div>
 <!-- Hero End -->
+
+<!-- Features Start -->
+<div class="section features-section-5">
+   <div class="container">
+      <div class="features-wrap-5">
+         <div class="row">
+            <div class="col-lg-4 col-md-4">
+               <!-- Features Item Start -->
+               <div class="features-item" style="background-image: url(assets/images/bg/features-4-bg.jpg);">
+                  <div class="features-icon">
+                     <img src="assets/images/features-9.png" alt="">
+                  </div>
+                  <div class="features-text">
+                     <h3 class="title">Faster and trusted grow solutions</h3>
+                  </div>
+               </div>
+               <!-- Features Item End -->
+            </div>
+            <div class="col-lg-4 col-md-4">
+               <!-- Features Item Start -->
+               <div class="features-item" style="background-image: url(assets/images/bg/features-4-bg.jpg);">
+                  <div class="features-icon">
+                     <img src="assets/images/features-10.png" alt="">
+                  </div>
+                  <div class="features-text">
+                     <h3 class="title">Strategy buildup for web software</h3>
+                  </div>
+               </div>
+               <!-- Features Item End -->
+            </div>
+            <div class="col-lg-4 col-md-4">
+               <!-- Features Item Start -->
+               <div class="features-item" style="background-image: url(assets/images/bg/features-4-bg.jpg);">
+                  <div class="features-icon">
+                     <img src="assets/images/features-11.png" alt="">
+                  </div>
+                  <div class="features-text">
+                     <h3 class="title">Innovative core with possibilities.</h3>
+                  </div>
+               </div>
+               <!-- Features Item End -->
+            </div>
+         </div>
+      </div>
+   </div>
+
+</div>
+<!-- Features End -->
