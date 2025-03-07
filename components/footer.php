@@ -102,7 +102,7 @@
                      <div class="col-lg-6 col-md-6">
                         <!-- Footer Copyright Text Start -->
                         <div class="copyright-text">
-                           <p>© Copyrights 2023 Techmax All rights reserved.</p>
+                           <p>© Copyrights <?php echo date("Y")?> Imalitech, All rights reserved.</p>
                         </div>
                         <!-- Footer Copyright Text End -->
                      </div>
