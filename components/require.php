@@ -26,7 +26,8 @@ function feature_item($src, $bg_image, $text)
                </div>";
 }
 
-function single_testimonial(){
+function single_testimonial()
+{
    echo "<div class='single-testimonial'>
                         <div class='testimonial-image'>
                            <img src='assets/images/testimonial/testi-2.jpg' alt=''>
