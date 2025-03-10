@@ -38,17 +38,17 @@
          <div class="row">
             <div class="col-lg-4 col-md-4">
                <!-- Features Item Start -->
-               <?php feature_item("assets/images/features-9.png", "assets/images/bg/features-4-bg.jpg", "Equipo experto en tus necesidades.")?>
+               <?php feature_item("assets/images/features-9.png", "assets/images/bg/features-4-bg.jpg", "Contamos con un equipo de profesionales con amplia experiencia que entiende tus desafíos y necesidades.</br></br>")?>
                <!-- Features Item End -->
             </div>
             <div class="col-lg-4 col-md-4">
                <!-- Features Item Start -->
-               <?php feature_item("assets/images/features-10.png", "assets/images/bg/features-4-bg.jpg", "Soluciones personalizadas para crecer.")?>
+               <?php feature_item("assets/images/features-10.png", "assets/images/bg/features-4-bg.jpg", "Juntos, analizaremos tus retos de mercado y diseñaremos soluciones a medida que te ayuden a alcanzar tus objetivos de negocio de forma más efectiva.")?>
                <!-- Features Item End -->
             </div>
             <div class="col-lg-4 col-md-4">
                <!-- Features Item Start -->
-               <?php feature_item("assets/images/features-11.png", "assets/images/bg/features-4-bg.jpg", "Trabajo conjunto para tu éxito.")?>
+               <?php feature_item("assets/images/features-11.png", "assets/images/bg/features-4-bg.jpg", "Nuestro enfoque siempre será trabajar contigo, asegurándonos de que cada paso de la solución se adapte a lo que realmente necesitas para impulsar tu éxito.")?>
                <!-- Features Item End -->
             </div>
          </div>

@@ -26,15 +26,16 @@ include "./components/hero.php";
          <div class="features-content-wrap">
             <div class="row col-12 flex-column flex-md-row">
                <div class="col-lg-6 col-sm-12">
-                  <?php single_feature("assets/images/features-6.png", "Learn Live", "LearnLive es una plataforma LMS ( Learning Management System ó Sistema de Gestión de Aprendizaje) donde, apoyados con recursos de Video Streaming, ponemos a disposición de nuestros usuarios más de 400 cursos, desarrollados por profesionales de todo el mundo y orientados a una gran variedad de temas.") ?>
+                  <?php single_feature("assets/images/features-4.png", "Entretenimiento/Contenido", "Ofrecemos innovadores servicios y soluciones de valor agregado. Nuestra apuesta por innovar, traer contenidos que localmente sean relevantes, ofrecer una experiencia de usuario de última generación y proveerle al Operador/Telco ingresos adicionales, son los ingredientes que componen la base de nuestra oferta.") ?>
                </div>
                <div class="col-lg-6 col-sm-12">
-                  <?php single_feature("assets/images/features-6.png", "Billcentrix", "Recurrencia de Cobros Inteligentes. Recuperación de Cartera y Portales de suscripción: La solución completa para automatizar el proceso de cobro recurrente con Tarjeta de Crédito, actualización de clientes y gestión de deuda. Totalmente integrado con las empresas.") ?>
+                  <?php single_feature("assets/images/billcentrix-solo-logo.png", "Billcentrix", "Recurrencia de Cobros Inteligentes. Recuperación de Cartera y Portales de suscripción:
+                  La solución completa para automatizar el proceso de cobro recurrente con Tarjeta de Crédito, actualización de clientes y gestión de deuda. Totalmente integrado con las empresas.") ?>
                </div>
             </div>
             <div class="row col-12">
                <div class="col-lg-12 col-sm-12">
-                  <?php single_feature("assets/images/features-6.png", "Transformación Digital y Entretenimiento", "Ofrecemos innovadores servicios y soluciones de valor agregado. Nuestra apuesta por innovar, traer contenidos que localmente sean relevantes, ofrecer una experiencia de usuario de última generación y proveerle al Operador/Telco ingresos adicionales, son los ingredientes que componen la base de nuestra oferta.") ?>
+                  <?php single_feature("assets/images/features-6.png", "Learn Live", "LearnLive es una plataforma LMS ( Learning Management System ó Sistema de Gestión de Aprendizaje) donde, apoyados con recursos de Video Streaming, ponemos a disposición de nuestros usuarios más de 400 cursos, desarrollados por profesionales de todo el mundo y orientados a una gran variedad de temas.") ?>
                </div>
             </div>
          </div>

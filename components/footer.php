@@ -41,37 +41,41 @@
                      </div>
                      <!-- Footer Widget End -->
                   </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <!-- Footer Widget Start -->
-                     <div class="footer-widget">
-                        <h4 class="footer-widget-title">Useful Links</h4>
+                  <!-- Map Column -->
+                  <div class="col-lg-6 col-sm-12">
+                     <h4 class="footer-widget-title">Our Locations</h4>
+                     <div class="row">
+                        <!-- Location 1 -->
+                        <div class="col-md-6">
+                           <div class="map-container" style="margin-bottom: 15px; height: 200px; border-radius: 10px; overflow: hidden;">
+                              <iframe
+                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.8650096917495!2d-79.52141639999999!3d8.984567099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca90059c72c63%3A0x74323d17acb045d0!2sATRIUM%20TOWER!5e0!3m2!1sen!2spa!4v1740833530528!5m2!1sen!2spa"
+                                 width="100%"
+                                 height="100%"
+                                 style="border:0;"
+                                 allowfullscreen=""
+                                 loading="lazy">
+                              </iframe>
+                           </div>
+                           <p style="text-align: center; color:white;">Atrium Tower, Panamá</p>
+                        </div>
 
-                        <div class="widget-link">
-                           <ul class="link">
-                              <li><a href="#">Terms & Conditions</a></li>
-                              <li><a href="#">About Company</a></li>
-                              <li><a href="#">Payment Gatway</a></li>
-                              <li><a href="#">Policy</a></li>
-                           </ul>
+                        <!-- Location 2 -->
+                        <div class="col-md-6">
+                           <div class="map-container" style="margin-bottom: 15px; height: 200px; border-radius: 10px; overflow: hidden;">
+                              <iframe
+                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.226470241791!2d-69.91362162581459!3d18.473398170615457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89cd9a89eaf1%3A0x6460fa2af5b6e7f6!2sAv.%20M%C3%A9xico%2055%2C%20Santo%20Domingo%2010203%2C%20Dominican%20Republic!5e0!3m2!1sen!2spa!4v1740834202315!5m2!1sen!2spa"
+                                 width="100%"
+                                 height="100%"
+                                 style="border:0;"
+                                 allowfullscreen=""
+                                 loading="lazy">
+                              </iframe>
+                           </div>
+                           <p style="text-align: center; color:white;">Ave Mexico Nro 55-01, República Dominicana
+                           </p>
                         </div>
                      </div>
-                     <!-- Footer Widget End -->
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <!-- Footer Widget Start -->
-                     <div class="footer-widget">
-                        <h4 class="footer-widget-title">Our Services</h4>
-
-                        <div class="widget-link">
-                           <ul class="link">
-                              <li><a href="#">Data Security</a></li>
-                              <li><a href="#">IT Managment</a></li>
-                              <li><a href="#">Outsourcing</a></li>
-                              <li><a href="#">Networking</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <!-- Footer Widget End -->
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <!-- Footer Widget Start -->
@@ -102,7 +106,7 @@
                      <div class="col-lg-6 col-md-6">
                         <!-- Footer Copyright Text Start -->
                         <div class="copyright-text">
-                           <p>© Copyrights <?php echo date("Y")?> Imalitech, All rights reserved.</p>
+                           <p>© Copyrights <?php echo date("Y") ?> Imalitech, All rights reserved.</p>
                         </div>
                         <!-- Footer Copyright Text End -->
                      </div>

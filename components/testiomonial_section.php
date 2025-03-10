@@ -1,48 +1,36 @@
+<?php
+
+$socios_src = [
+   [
+      "socio" => "Digicel",
+      "src_path" => "assets/images/DIGICEL.jpg"
+   ],
+   [
+      "socio" => "Altice",
+      "src_path" => "assets/images/ALTICE.png"
+   ]
+]
+
+?>
+
 <!-- Testimonial Start -->
 <div class="section testimonial-section-2 section-padding-03">
    <div class="container">
       <div class="testimonial-2-wrap">
          <div class="section-title2 text-center">
-            <h2 class="title"><span>Nuestros clientes </span>  confían en nuestras soluciones de TI y servicio de calidad. </h2>
+            <h2 class="title" style="font-size: 30px;"><span>De un paso adelante</span> y conviertase en uno de nuestros socios de negocios</h2>
          </div>
          <div class="testimonial-slider-wrap">
             <div class="swiper-container testimonial-2-active slider-bullet">
                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                     <!-- Single Testimonial Start -->
-                     
-                     <!-- Single Testimonial End -->
-                  </div>
-                  <div class="swiper-slide">
-                     <!-- Single Testimonial Start -->
-                     <div class="single-testimonial">
-                        <div class="testimonial-image">
-                           <img src="assets/images/testimonial/testi-2.jpg" alt="">
-                        </div>
-                        <div class="testimonial-content">
-                           <p>Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee </p>
-                           <span class="name">Michel Holder</span>
-                           <span class="designation">CEO, Harlond inc</span>
-                        </div>
+                  <?php foreach ($socios_src as $sc): ?>
+                     <div class="swiper-slide">
+                        <!-- Single Testimonial Start -->
+                        <?php single_image_slider($sc["src_path"], $sc["socio"], 200) ?>
+                        <!-- Single Testimonial End -->
                      </div>
-                     <!-- Single Testimonial End -->
-                  </div>
-                  <div class="swiper-slide">
-                     <!-- Single Testimonial Start -->
-                     <div class="single-testimonial">
-                        <div class="testimonial-image">
-                           <img src="assets/images/testimonial/testi-2.jpg" alt="">
-                        </div>
-                        <div class="testimonial-content">
-                           <p>Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee </p>
-                           <span class="name">Michel Holder</span>
-                           <span class="designation">CEO, Harlond inc</span>
-                        </div>
-                     </div>
-                     <!-- Single Testimonial End -->
-                  </div>
+                  <?php endforeach ?>
                </div>
-
                <!-- Add Pagination -->
                <div class="swiper-pagination"></div>
             </div>
