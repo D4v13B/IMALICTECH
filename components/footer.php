@@ -17,7 +17,7 @@
                                     <i class="flaticon-phone-call"></i>
                                  </div>
                                  <div class="info-text">
-                                    <span><a href="#">+91 458 654 528</a></span>
+                                    <span><a href="#">+507 6613-9700</a></span>
                                  </div>
                               </li>
                               <li>
@@ -28,14 +28,14 @@
                                     <span><a href="#">info@example.com</a></span>
                                  </div>
                               </li>
-                              <li>
+                              <!-- <li>
                                  <div class="info-icon">
                                     <i class="flaticon-pin"></i>
                                  </div>
                                  <div class="info-text">
                                     <span>60 East 65th Street, NY</span>
                                  </div>
-                              </li>
+                              </li> -->
                            </ul>
                         </div>
                      </div>

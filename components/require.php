@@ -91,24 +91,26 @@ function feature_single_item($image, $title, $description)
        </div>";
 }
 
-function what_is_section($url_bg, $title, $p1, $subtitle, $p2, $btn_href = '')
+function what_is_section($url_bg, $title, $p1, $subtitle, $p2, $btn_href = '', $carousel = '')
 {
    $slider = "";
 
-   foreach($url_bg as $bg){
+   foreach ($url_bg as $bg) {
       $slider .= "
       <div class='swiper-slide'>
             <img src='$bg' alt='$title'>
       </div>";
    }
 
+   if (!empty($carousel)) {
+      $slider = $carousel;
+   }
+
    echo "
-   <div class='col-xl-5'>
+      <div class='col-xl-5'>
          <div class='about-img-wrap'>
              <div class='about-img about-img-big'>
-               <div class='swipper-container slider-bullet'>
-                  {$slider}
-               </div>
+               $slider
              </div>
          </div>
       </div>
@@ -135,4 +137,43 @@ function what_is_section($url_bg, $title, $p1, $subtitle, $p2, $btn_href = '')
       </div>
    </div>
    ";
+}
+
+function carousel($id, $items, $width = 300, $return = false)
+{
+   $htmlItems = "";
+   $i = 0;
+
+   foreach ($items as $it) {
+      $active = $i === 0 ? " active" : ""; // Agregamos espacio antes de "active" solo si es necesario
+      $i++;
+
+      $htmlItems .= "
+        <div class='carousel-item$active'>
+            <img src='" . htmlspecialchars($it['src']) . "' class='d-block w-100' 
+                 alt='" . htmlspecialchars($it['title']) . "' 
+                 style='width: {$width}px'>
+        </div>";
+   }
+
+   $res = "
+    <div id='$id' class='carousel slide' data-bs-ride='carousel'>
+        <div class='carousel-inner'>
+            $htmlItems
+        </div>
+        <button class='carousel-control-prev' type='button' data-bs-target='#$id' data-bs-slide='prev'>
+            <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+            <span class='visually-hidden'>Previous</span>
+        </button>
+        <button class='carousel-control-next' type='button' data-bs-target='#$id' data-bs-slide='next'>
+            <span class='carousel-control-next-icon' aria-hidden='true'></span>
+            <span class='visually-hidden'>Next</span>
+        </button>
+    </div>";
+
+   if ($return) {
+      return $res;
+   }
+
+   echo $res;
 }

@@ -13,7 +13,7 @@ function menu_links()
       </ul>
    </li>
    <li>
-      <a href='about.html'>Billcentrix</a>
+      <a href='billcentrix.php'>Billcentrix</a>
    </li>
    ";
 }
